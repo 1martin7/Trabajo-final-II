@@ -1,0 +1,121 @@
+nav{
+    width: 100%;
+    background-color: rgb(46, 40, 40) !important;
+
+    .navbartitulo{
+        letter-spacing: 10px;
+        color: rgb(80, 102, 131) !important;
+        font-family: 'Square Peg', cursive;
+        font-family: 'Tapestry', cursive;
+        font-family: 'Whisper', cursive;
+        font-size: 30px;
+        }
+        a:hover{
+            color: wheat !important;
+        }
+}
+
+.rowindex{
+    height: 500px;
+
+    .nleft{
+        background-color: rgb(68, 92, 92);
+        background-image: url(assets/img/help.svg);
+    }
+    .nright{
+        background-color: rgb(76, 104, 104);
+        color: rgb(18, 22, 24);
+    }
+    .rowtitimg{
+        text-align: left;
+        font-weight: 600;
+        font-size: large;
+        p{
+            color: rgb(163, 174, 185);
+            text-align: left;
+            font-weight: 100;
+        }
+    }
+}
+.rowindex2{
+    height: 500px;
+
+    .rowtitimg2{
+        font-weight: 600;
+        font-size: large;
+        color: aliceblue;
+    }
+    .nright2{
+        background-color: rgb(103, 139, 139) ;
+        background-image: url(assets/img/imagen.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .nleft2{
+        background-color: rgb(136, 177, 177) ;
+        text-align: right;
+        p{
+            color: rgb(6, 6, 7);
+            font-weight: 100;
+        }
+    }
+}
+.footerall{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    text-align: center;
+    letter-spacing: 5px;
+
+    a{
+        color: aliceblue;
+        letter-spacing: 30px;
+    }
+    a:hover{
+        color: rgb(43, 48, 48);
+    }
+}
+.h2equipo{
+    font-family: 'Square Peg', cursive;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Whisper', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.jumboind{
+    background-color: hsl(0, 0%, 50%);
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 10px;
+
+    span{
+        letter-spacing: 10px !important; 
+        color: rgb(80, 102, 131) !important;
+        font-family: 'Square Peg', cursive;
+        font-family: 'Tapestry', cursive;
+        font-family: 'Whisper', cursive;
+        font-size: 70px;
+    }
+    p{
+        letter-spacing: 3px;
+        color: rgb(255, 255, 255);
+    }
+}
+.carousel-inner{
+        color: black;
+    h3{
+        color: black;
+    }
+    p{
+        color: black;
+    }
+}
+
+.flechas{
+    background-color: rgb(111, 117, 128);
+    border-radius: 10px;
+}
