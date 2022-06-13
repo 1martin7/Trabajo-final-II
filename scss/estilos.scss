@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Tapestry&family=Whisper&display=swap');
+
+
+
+$color1: rgb(155, 174, 194);
+$color2: rgb(96, 116, 138);
+
+$font1:'Square Peg', cursive;
 nav{
     width: 100%;
-    background-color: rgb(46, 40, 40) !important;
-
+    background-color: $color1 !important;
     .navbartitulo{
         letter-spacing: 10px;
         color: rgb(80, 102, 131) !important;
@@ -15,12 +22,39 @@ nav{
         }
 }
 
+.jumboind{
+    background-color: $color2;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 10px;
+    span{
+        letter-spacing: 10px !important; 
+        color: rgb(80, 102, 131) !important;
+        font-family: 'Square Peg', cursive;
+        font-family: 'Tapestry', cursive;
+        font-family: 'Whisper', cursive;
+        font-size: 70px;
+    }
+    p{
+        letter-spacing: 3px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.h2equipo{
+    font-family: $font1;
+    font-size: 60px;
+    text-align: center;
+}
+
 .rowindex{
     height: 500px;
 
     .nleft{
         background-color: rgb(68, 92, 92);
-        background-image: url(assets/img/help.svg);
+        background-image: url(../assets/img/help.svg);
     }
     .nright{
         background-color: rgb(76, 104, 104);
@@ -47,7 +81,7 @@ nav{
     }
     .nright2{
         background-color: rgb(103, 139, 139) ;
-        background-image: url(assets/img/imagen.svg);
+        background-image: url(../assets/img/imagen.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -75,36 +109,7 @@ nav{
         color: rgb(43, 48, 48);
     }
 }
-.h2equipo{
-    font-family: 'Square Peg', cursive;
-    font-family: 'Tapestry', cursive;
-    font-family: 'Whisper', cursive;
-    font-size: 60px;
-    text-align: center;
-}
 
-
-.jumboind{
-    background-color: hsl(0, 0%, 50%);
-    text-align: center;
-    letter-spacing: 3px;
-    border-radius: 30px;
-    border: 2px solid black;
-    margin: 10px;
-
-    span{
-        letter-spacing: 10px !important; 
-        color: rgb(80, 102, 131) !important;
-        font-family: 'Square Peg', cursive;
-        font-family: 'Tapestry', cursive;
-        font-family: 'Whisper', cursive;
-        font-size: 70px;
-    }
-    p{
-        letter-spacing: 3px;
-        color: rgb(255, 255, 255);
-    }
-}
 .carousel-inner{
         color: black;
     h3{
