@@ -49,6 +49,44 @@ nav{
     text-align: center;
 }
 
+$mapa1: (
+    20px: darkgrey,
+    40px: grey,
+    60px: black,
+    80px: lightblue
+);
+
+    @each $sizes, $colores in $mapa1 {
+        .maps-#{$colores} {
+            background-color: rgb(70, 81, 100);
+            height: 100px;
+            width: 100%;
+            border: 5px solid $colores;
+            text-align: center;
+            font-size: $sizes;
+            line-height: 50px;
+            color: rgb(7, 7, 7);
+        }
+    }
+
+@mixin cuadrado ($fondo, $alto){
+    background-color: $fondo;
+    width: 100%;
+    height: $alto;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+}
+.cuadrado-1{
+    @include cuadrado (rgb(68, 84, 105), 300px);
+}
+.cuadrado-2{
+    @include cuadrado (rgb(59, 63, 68), 250px);
+}
+.cuadrado-3{
+    @include cuadrado (rgb(40, 42, 44), 400px);
+}
+
 .rowindex{
     height: 500px;
 
