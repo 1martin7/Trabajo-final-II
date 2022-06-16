@@ -1,0 +1,25 @@
+{
+  "name": "classic-aballay-luis-martin-sass",
+  "version": "1.0.0",
+  "description": "Classic es un equipo de profesionales dedicados a mejorar la calidad de vida de las personas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss estilos/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1martin7/Trabajo-final-II.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1martin7/Trabajo-final-II/issues"
+  },
+  "homepage": "https://github.com/1martin7/Trabajo-final-II#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

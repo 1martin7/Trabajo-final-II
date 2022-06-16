@@ -2,8 +2,8 @@
 
 
 
-$color1: rgb(155, 174, 194);
-$color2: rgb(96, 116, 138);
+$color1: rgba(155, 174, 194, 0.692);
+$color2: rgb(131, 155, 180);
 
 $font1:'Square Peg', cursive;
 nav{
@@ -25,13 +25,14 @@ nav{
 .jumboind{
     background-color: $color2;
     text-align: center;
+    width: 100%;
+    height: 300px;
     letter-spacing: 3px;
-    border-radius: 30px;
-    border: 2px solid black;
-    margin: 10px;
+    margin: 0;
+    padding: 50;
     span{
         letter-spacing: 10px !important; 
-        color: rgb(80, 102, 131) !important;
+        color: rgb(64, 75, 90) !important;
         font-family: 'Square Peg', cursive;
         font-family: 'Tapestry', cursive;
         font-family: 'Whisper', cursive;
@@ -39,21 +40,34 @@ nav{
     }
     p{
         letter-spacing: 3px;
-        color: rgb(255, 255, 255);
+        color: rgb(173, 195, 197);
     }
 }
-
+.backgroundimg{
+    background-color: rgb(185, 207, 216);
+    height: 500px;
+    width: 100%;
+}
+.imginicio{
+    height: 400px;
+    margin: auto;
+    display: block;
+}
 .h2equipo{
     font-family: $font1;
+    background-color: rgb(123, 167, 180);
     font-size: 60px;
+    width: 100%;
+    height: 70px;
     text-align: center;
+    margin-top: 50px;
 }
 
 $mapa1: (
-    20px: darkgrey,
-    40px: grey,
-    60px: black,
-    80px: lightblue
+    10px: darkgrey,
+    11px: grey,
+    12px: black,
+    13px: lightblue
 );
 
     @each $sizes, $colores in $mapa1 {
@@ -61,14 +75,19 @@ $mapa1: (
             background-color: rgb(70, 81, 100);
             height: 100px;
             width: 100%;
+            margin: 10;
+            margin-bottom: 10px;
             border: 5px solid $colores;
-            text-align: center;
-            font-size: $sizes;
+            text-align: left;
+            font-size: 30px;
             line-height: 50px;
             color: rgb(7, 7, 7);
         }
     }
-
+.btn{
+    position: relative;
+    left: 50px;
+}
 @mixin cuadrado ($fondo, $alto){
     background-color: $fondo;
     width: 100%;
@@ -89,13 +108,15 @@ $mapa1: (
 
 .rowindex{
     height: 500px;
+    padding: 50px;
 
     .nleft{
-        background-color: rgb(68, 92, 92);
+        background-color: rgb(153, 199, 199);
         background-image: url(../assets/img/help.svg);
+        padding: 5px;
     }
     .nright{
-        background-color: rgb(76, 104, 104);
+        background-color: rgb(107, 136, 136);
         color: rgb(18, 22, 24);
     }
     .rowtitimg{
@@ -111,6 +132,7 @@ $mapa1: (
 }
 .rowindex2{
     height: 500px;
+    margin-bottom: 50px;
 
     .rowtitimg2{
         font-weight: 600;
@@ -118,7 +140,7 @@ $mapa1: (
         color: aliceblue;
     }
     .nright2{
-        background-color: rgb(103, 139, 139) ;
+        background-color: rgb(133, 165, 165) ;
         background-image: url(../assets/img/imagen.svg);
         background-position: center;
         background-repeat: no-repeat;
@@ -144,12 +166,13 @@ $mapa1: (
         letter-spacing: 30px;
     }
     a:hover{
-        color: rgb(43, 48, 48);
+        color: rgb(71, 85, 85);
     }
 }
 
 .carousel-inner{
         color: black;
+        background-color: white;
     h3{
         color: black;
     }
@@ -161,4 +184,20 @@ $mapa1: (
 .flechas{
     background-color: rgb(111, 117, 128);
     border-radius: 10px;
+}
+
+.form-group{
+    width: 300px;
+}
+
+
+main{
+    .formularioIniciar{
+        padding: 2rem;
+    }
+    .formularioEmpezar{
+        padding: 2rem;}
+        p {
+            font-family: "Raleway", sans-serif;
+            text-align: center; }
 }

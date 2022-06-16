@@ -11,23 +11,23 @@
     <meta name="description" content="Consultorio online de nutrición saludable y entrenamiento físico. Enseñamos a mejorar tu estilo de vida con planes personalizados.">
     <meta name="keywords" content="nutricion, alimentacion, entrenamiento, consultorio, consulta, ejercicio, fit, fitness, saludable, comida, dieta, salud, alimentos, alimento, nutricionista">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./estilos/estilos.css">
     <title>classic</title>
 </head>
 <body>
-    <!--Nav bar inicio-->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <!-- Brand -->
+<!--Nav bar inicio-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- Brand -->
         <a class="navbar-brand navbartitulo" href="#">Classic</a>
-      
-        <!-- Toggler/collapsibe Button -->
+      <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <!-- Navbar links -->
+      <!-- Toggler/collapsibe Button -->
+      <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -37,64 +37,81 @@
               <a class="nav-link" href="./pages/servicios.html">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Consultas</a>
+              <a class="nav-link" href="./pages/consultas.html">Consultas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/planes.html">Planes</a>
             </li>
           </ul>
         </div>
-      </nav>
-    <!--Nav bar fin-->
+    </nav>
+<!--Nav bar fin-->
 
-    <!--Jumbotron inicio-->
+<!--Jumbotron inicio-->
     <div class="jumbotron jumboind">
-        <h1 class="animate__animated animate__heartBeat"> Bienvenidos a <span>classic</span></h1>
+        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> Bienvenidos a <span>classic</span></h1>
         <p>Somos un grupo de amigos profesionales a la salud que nos especializamos en mejorar la calidad de vida de las personas.</p>
     </div>
-    <!--Jumbotron fin-->
-    
-    <!--Imagenes inicio-->
+<!--Jumbotron fin-->
+
+  <div class="backgroundimg">
+    <img src="assets/img/inicio.svg" alt="" class="imginicio">
+  </div>
+  
+<!--Imagenes inicio-->
     <h2 class="h2equipo" id="h2equipo">Nuestro equipo</h2>
-    <div class="row rowindex">
+    <div data-aos="flip-left" class="row rowindex">
         <div class="nleft col-md-6"></div>
         <div class="nright col-md-6 rowtitimg">Siempre actualizados y con variedad de contenidos
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, doloribus! Unde nesciunt molestias asperiores at delectus dolorum harum labore, nisi alias tenetur totam exercitationem voluptates quo recusandae eum consectetur ratione inventore? Incidunt doloremque distinctio soluta magni est alias repudiandae saepe. Labore facere repellat blanditiis sapiente impedit, iusto excepturi aspernatur inventore cumque animi! Et quaerat sequi delectus iste quod autem minus error odit unde. Ut velit optio a nemo beatae rem.</p>
         </div>
     </div>
-    <div class="row rowindex2">
+    <div data-aos="flip-right" class="row rowindex2">
         <div class="nleft2 col-md-6 rowtitimg2">Siempre dispuestos a ayudarte <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ab dolore consequatur soluta commodi eligendi omnis aliquid dolores earum perferendis facere, quos harum! Dolorum iste placeat iusto sunt perspiciatis delectus corporis repellat iure alias harum commodi asperiores sequi nihil autem reiciendis eius est esse tempora voluptatum, minus earum dolor. Dolores et adipisci quas odit. Repellat distinctio accusamus culpa consequatur quis hic nam autem aspernatur modi ab aut veniam, ipsam voluptate expedita, nulla eos recusandae obcaecati quo beatae at rerum laborum sunt sit? Mollitia quia nemo reprehenderit exercitationem atque? Omnis, sit dolorum. Officiis esse quam adipisci earum. Enim doloremque repellendus eius!</p></div>
         <div class="nright2 col-md-6 rowtitimg"></p></div>
     </div>
-    <!--Imagenes fin-->
-
-    <!--map-->
-    <div class="maps-darkgrey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eius eos? Itaque aspernatur vel voluptatibus, deserunt nulla quaerat ad facere.<button type="button" class="btn btn-info">Info</button></div>
-    <div class="maps-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, minima.<button type="button" class="btn btn-info">Info</button></div>
-    <div class="maps-black">Lorem ipsum dolor sit amet.<button type="button" class="btn btn-info">Info</button></div>
-    <div class="maps-lightblue">Lorem ipsum dolor sit amet.<button type="button" class="btn btn-info">Info</button></div>
-    <!--map-->
-    <!--mixin-->
-    <div class="cuadrado-1">
-      <p>Lorem ipsum dolor sit amet.</p>
+<!--Imagenes fin-->
+<!--map-->
+    <div data-aos="fade-left" class="maps-darkgrey">INFORMACIÓN SOBRE BEGINNERS <a href="./pages/planes.html" class="btn btn-dark">Ver planes</a></div>
+    <div data-aos="fade-left" class="maps-grey">INFORMACIÓN SOBRE PLAN RX'S <a href="./pages/planes.html" class="btn btn-dark">Ver planes</a></div>
+    <div data-aos="fade-left" class="maps-black">INFORMACIÓN SOBRE PLAN ADVANCED <a href="./pages/planes.html" class="btn btn-dark">Ver planes</a></div>
+    <div data-aos="fade-left" class="maps-lightblue">INFORMACIÓN SOBRE PLAN ELITE <a href="./pages/planes.html" class="btn btn-dark">Ver planes</a></div>
+<!--map-->
+<!--mixin-->
+    <div data-aos="fade-right" class="cuadrado-1">
+      <h3>Nuestras sedes</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, pariatur?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, pariatur?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, pariatur?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, pariatur?</p>
     </div>
-    <div class="cuadrado-2">
-      <p>Lorem ipsum dolor sit amet.</p>
+    <div data-aos="fade-right" class="cuadrado-2">
+      <h3>Consultas más comunes</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit corrupti impedit eligendi sed sint saepe sequi aliquid explicabo quibusdam dolor, consequuntur suscipit repudiandae eum sunt aperiam possimus architecto velit veritatis nihil maxime dolorum molestiae debitis? Ab tempora, sed eius repudiandae fugit sapiente maxime quasi magnam cum et blanditiis quia, vitae recusandae in. Numquam harum odio cupiditate nam, quas, omnis soluta facilis delectus iusto, excepturi natus laudantium deleniti nihil! Vitae natus architecto ullam culpa esse reiciendis, quod, nesciunt saepe minus nemo velit ratione ipsa voluptatibus iusto non consectetur sint id! Ab est autem dolor quia porro ex voluptate harum expedita placeat?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore velit, nesciunt assumenda vitae tenetur eaque cumque id odio ducimus, quisquam inventore? Tempora aut sint veniam quas, magnam sunt ullam? Alias eius sed, quia tenetur libero nulla amet voluptatibus eaque ipsum.</p>
     </div>
-    <div class="cuadrado-3">
-      <p>Lorem ipsum dolor sit amet.</p>
+    <div data-aos="fade-right" class="cuadrado-3">
+      <h3>Cómo trabajar para nosotros</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam voluptatum harum maxime quas pariatur? Similique iste officiis illum exercitationem molestiae sed distinctio explicabo? Ratione dolore magni, culpa est suscipit autem tempore maxime quam unde natus maiores deserunt vel nobis provident iure illum incidunt laboriosam nam veniam sapiente omnis. Iste laboriosam repellat quam commodi est laudantium autem aspernatur repudiandae veritatis. Veritatis natus tempora sunt fugiat amet enim itaque corporis culpa molestiae. Neque architecto, officiis incidunt delectus, iure sapiente magnam distinctio nulla, tempore explicabo cumque sed. Nisi cum nesciunt ipsa itaque incidunt provident! Quibusdam, architecto aliquid voluptatem doloremque at facilis atque labore libero ex commodi quaerat quis, voluptates excepturi impedit. Quos mollitia placeat numquam iusto nisi vero voluptatem necessitatibus, iste sed, quaerat earum iure est aperiam quas et! Cupiditate dolor molestiae nemo incidunt at ut, maxime nesciunt minima quas modi possimus consequuntur quaerat ad molestias corrupti aperiam itaque eius placeat inventore odio quod tenetur? Nisi quisquam non eum earum quae deleniti magni! Repudiandae ducimus ut saepe fugiat a aperiam dignissimos? A numquam officiis accusamus sapiente laudantium suscipit, repellendus impedit quam corporis non tempora provident, voluptatem tenetur. Consectetur labore inventore fugit reiciendis veritatis assumenda commodi rerum veniam in eligendi ratione neque facilis quisquam necessitatibus ullam distinctio, odit ipsum itaque a atque quos cumque. Perferendis maxime, tempore dicta amet dignissimos ipsa asperiores beatae ut sed pariatur, at porro. Ipsum porro est commodi amet nihil! Quam excepturi maxime inventore, commodi, blanditiis asperiores officia quisquam, eveniet unde iusto hic cum atque quos perferendis vitae aliquam culpa explicabo tempore quis consequatur nisi. Placeat nihil rem, facilis adipisci repudiandae quas, molestias nulla nostrum nam cum earum, quidem velit? Natus voluptatem sequi tempore error, consequatur laboriosam perferendis sit perspiciatis tempora dolorum non vero ducimus hic earum tenetur dignissimos facilis cumque atque assumenda corporis unde adipisci dolor. Sunt, ut!</p>
     </div>
-    <!--mixin-->
-    
-    <!--footer fin-->
+<!--mixin-->
+<!--footer fin-->
     <footer class="footerall">
         <p>Seguinos en nuestras redes</p>
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
     </footer>
-    <!--footer fin-->
-
+<!--footer fin-->
+<!--scripts-->
     <script src="js/wow.min.js"></script>
     <script> new WOW().init();</script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+<!--scripts-->
 </body>
 </html>
