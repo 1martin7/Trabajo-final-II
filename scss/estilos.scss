@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Tapestry&family=Whisper&display=swap');
 
-
+@import "colores";
 
 $color1: rgba(155, 174, 194, 0.692);
 $color2: rgb(131, 155, 180);
@@ -63,12 +63,7 @@ nav{
     margin-top: 50px;
 }
 
-$mapa1: (
-    10px: darkgrey,
-    11px: grey,
-    12px: black,
-    13px: lightblue
-);
+
 
     @each $sizes, $colores in $mapa1 {
         .maps-#{$colores} {
